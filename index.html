@@ -9,27 +9,28 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <div class="container">
-
-    <form class="js-form">
-      <div class="input-box">
-        <label for="qidir">
-          <input class="js-film-name-input mt-5 p-1 form-control" type="text" placeholder="search" id="qidir">
-        </label>
-      </div>
-    </form>
-    <output class="js-result-fil-name"></output>
-    <ul class="js-list d-flex flex-wrap list-unstyled justify-content-between"></ul>
+  <section class="section">
+    <div class="container">
+      <form class="js-form">
+        <div class="input-box">
+          <label for="qidir">
+            <input class="js-film-name-input mt-5 p-1 form-control" type="text" placeholder="search" id="qidir">
+          </label>
+        </div>
+      </form>
+      <output class="js-result-fil-name"></output>
+      <ul class="js-list d-flex flex-wrap list-unstyled justify-content-between"></ul>
     
-      
-    <template class="item">
-      <li class="js-border list-unstyled mt-3">
-        <h2 class="heading text-center"></h2>
-        <p class="film-year text-center"></p>
-        <p class="film-genres text-center"></p>
-      </li>
-    </template>
-  </div>
+    
+    </div>
+  </section>
+<template id="item">
+    <li class="js-border list-unstyled mt-3">
+      <h2 class="heading text-center"></h2>
+      <p class="film-year text-center"></p>
+      <p class="film-genres text-center"></p>
+  </li>
+  </template>
   <script src="./script/kinolar.js"></script>
   <script src="./script/utils.js"></script>
   <script src="./script/main.js"></script>
